@@ -52,7 +52,7 @@ const FloatingImage = () => {
     <div className="lg:w-1/2 flex justify-center lg:justify-end mt-12 lg:mt-0 relative">
       <Bubbles />
       <motion.img
-        src="./src/assets/page2.png" // PNG con fondo transparente
+        src="/src/assets/page2.png" // PNG con fondo transparente
         alt="FitAI App Preview"
         className="w-auto max-h-[800px] object-contain"
         style={{ backgroundColor: "transparent" }}
@@ -183,7 +183,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up">
               <div className="relative inline-block mb-8">
                 <img
-                  src=".\src\assets\how-to-use\1.png"
+                  src="\src\assets\how-to-use\1.png"
                   alt="Paso 1: Crea tu perfil"
                   className="max-w-full h-auto"
                 />
@@ -203,7 +203,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <div className="relative inline-block mb-8">
                 <img
-                  src=".\src\assets\how-to-use\2.png"
+                  src="\src\assets\how-to-use\2.png"
                   alt="Paso 2: Recibe tu plan IA"
                   className="max-w-full h-auto"
                 />
@@ -223,7 +223,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <div className="relative inline-block mb-8">
                 <img
-                  src=".\src\assets\how-to-use\5.png"
+                  src="\src\assets\how-to-use\5.png"
                   alt="Paso 3: Entrena y progresa"
                   className="max-w-full h-auto"
                 />
@@ -246,7 +246,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up">
               <div className="relative inline-block mb-8">
                 <img
-                  src=".\src\assets\how-to-use\1.png"
+                  src="\src\assets\how-to-use\1.png"
                   alt="Paso 1: Crea tu perfil"
                   className="w-64 lg:w-80 h-auto"
                 />
@@ -285,7 +285,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <div className="relative inline-block mb-8">
                 <img
-                  src=".\src\assets\how-to-use\2.png"
+                  src="\src\assets\how-to-use\2.png"
                   alt="Paso 2: Recibe tu plan IA"
                   className="w-64 lg:w-80 h-auto"
                 />
@@ -325,7 +325,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <div className="relative inline-block mb-8">
                 <img
-                  src=".\src\assets\how-to-use\5.png"
+                  src="\src\assets\how-to-use\5.png"
                   alt="Paso 3: Entrena y progresa"
                   className="w-64 lg:w-80 h-auto"
                 />
@@ -444,7 +444,7 @@ const FooterFinal = () => {
       <div className="max-w-7xl mx-auto text-center">
         <div className="flex items-center justify-center gap-2 text-3xl font-bold text-foreground mb-6 tracking-tight">
           <img
-            src="./src/assets/logo.png"
+            src="/src/assets/logo.png"
             alt="FitAI Logo"
             className="h-14 w-14 filter brightness-0 invert"
           />
@@ -478,12 +478,12 @@ function App() {
       <header className="flex justify-center items-center fixed top-4 left-0 right-0 z-50 px-4 transition-all duration-300">
         <div
           className={`flex items-center justify-between w-full transition-all duration-300 px-4 py-2 backdrop-blur-xl border border-neutral-100/10 rounded-2xl bg-neutral-500/10 ${
-            isScrolled ? "max-w-2xl" : "max-w-7xl"
+            isScrolled ? "max-w-xl" : "max-w-7xl"
           }`}
         >
           <div className="flex items-center gap-3">
             <img
-              src="./src/assets/logo.png"
+              src="/src/assets/logo.png"
               alt="FitAI Logo"
               className="w-14 h-14 rounded-lg"
             />
