@@ -52,7 +52,7 @@ const FloatingImage = () => {
     <div className="lg:w-1/2 flex justify-center lg:justify-end mt-12 lg:mt-0 relative">
       <Bubbles />
       <motion.img
-        src="/src/assets/page2.png" // PNG con fondo transparente
+        src="/page2.png" // PNG con fondo transparente (sirviéndose desde /public)
         alt="FitAI App Preview"
         className="w-auto max-h-[800px] object-contain"
         style={{ backgroundColor: "transparent" }}
@@ -183,7 +183,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up">
               <div className="relative inline-block mb-8">
                 <img
-                  src="\src\assets\how-to-use\1.png"
+                  src="/how-to-use/1.png"
                   alt="Paso 1: Crea tu perfil"
                   className="max-w-full h-auto"
                 />
@@ -203,7 +203,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <div className="relative inline-block mb-8">
                 <img
-                  src="\src\assets\how-to-use\2.png"
+                  src="/how-to-use/2.png"
                   alt="Paso 2: Recibe tu plan IA"
                   className="max-w-full h-auto"
                 />
@@ -223,7 +223,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <div className="relative inline-block mb-8">
                 <img
-                  src="\src\assets\how-to-use\5.png"
+                  src="/how-to-use/5.png"
                   alt="Paso 3: Entrena y progresa"
                   className="max-w-full h-auto"
                 />
@@ -246,7 +246,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up">
               <div className="relative inline-block mb-8">
                 <img
-                  src="\src\assets\how-to-use\1.png"
+                  src="/how-to-use/1.png"
                   alt="Paso 1: Crea tu perfil"
                   className="w-64 lg:w-80 h-auto"
                 />
@@ -285,7 +285,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <div className="relative inline-block mb-8">
                 <img
-                  src="\src\assets\how-to-use\2.png"
+                  src="/how-to-use/2.png"
                   alt="Paso 2: Recibe tu plan IA"
                   className="w-64 lg:w-80 h-auto"
                 />
@@ -325,7 +325,7 @@ const HowToUse = () => {
             <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <div className="relative inline-block mb-8">
                 <img
-                  src="\src\assets\how-to-use\5.png"
+                  src="/how-to-use/5.png"
                   alt="Paso 3: Entrena y progresa"
                   className="w-64 lg:w-80 h-auto"
                 />
@@ -348,7 +348,6 @@ const HowToUse = () => {
 
   );
 };
-
 
 const MoreInfo = () => {
   return (
@@ -444,7 +443,7 @@ const FooterFinal = () => {
       <div className="max-w-7xl mx-auto text-center">
         <div className="flex items-center justify-center gap-2 text-3xl font-bold text-foreground mb-6 tracking-tight">
           <img
-            src="/src/assets/logo.png"
+            src="/logo.png"
             alt="FitAI Logo"
             className="h-14 w-14 filter brightness-0 invert"
           />
@@ -483,7 +482,7 @@ function App() {
         >
           <div className="flex items-center gap-3">
             <img
-              src="/src/assets/logo.png"
+              src="/logo.png"
               alt="FitAI Logo"
               className="w-14 h-14 rounded-lg"
             />
@@ -594,9 +593,5 @@ function App() {
     </div>
   );
 }
-
-
-
-
 
 export default App;
