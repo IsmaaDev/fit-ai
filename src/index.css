@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  background-color: white;
+  color: white;
+  scroll-behavior: smooth;
+
+  --font-sans: 'Space Grotesk';
+}
+
+
+
+
+
+
+
