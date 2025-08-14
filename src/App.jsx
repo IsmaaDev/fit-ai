@@ -422,7 +422,7 @@ const LastInfo = () => {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="text-black lucide lucide-play mr-3 h-7 w-7"
+              className="lucide lucide-play mr-3 h-7 w-7 hover:text-white"
             >
               <polygon points="6 3 20 12 6 21 6 3"></polygon>
             </svg>
